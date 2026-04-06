@@ -1,0 +1,81 @@
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(144, 102, 68);
+}
+
+
+main{
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr;
+  padding: 1rem;
+  gap: 1rem
+  
+}
+.left-side{
+  line-height:1.4;
+  font-size:18.5px;
+  padding: 0.5rem 1rem;
+}
+.right-side {
+  font-size: 20px;
+  padding: 1rem;
+  background-color: rgb(173, 143, 125);
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  text-align: center;
+  border-radius:30px;
+  text-wrap: balance;
+  box-shadow: inset 2px 2px 12px;
+}
+.right-side img{
+  border: 5px solid white;
+  border-radius: 18px;
+}
+.right-side figcaption{
+  margin-top: 15px;
+}
+.right-side h2{
+  font-size: 22px;
+}
+header{
+  text-align: center;
+background-color:rgb(130, 117, 103);url(http://127.0.0.1:3000/img/Ghana%20flag.JPG)
+}
+
+.flag{
+border: 7px solid rgb(235, 163, 163);
+border-radius: 25px;
+}
+
+
+nav{
+  background-color: rgb(198, 124, 99);
+  text-transform: uppercase;
+  border: 7px solid rgb(159, 99, 99);
+  border-radius: 25px;
+}
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+nav a:hover{
+  background-color:rgb(121, 121, 176) ;
+  border-radius: 1rem;
+
+}
+nav a{
+  padding: 0.5rem 1rem;
+  color: rgb(41, 28, 9);
+  text-decoration: none;
+}
+nav li{
+  list-style-type: none;
+  padding: 0.5rem;
+}
+
+footer{
+  background-color: rgb(158, 145, 127);
+  padding: 1rem 2rem;
+}
