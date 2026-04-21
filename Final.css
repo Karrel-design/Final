@@ -1,6 +1,6 @@
 body{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: rgb(144, 102, 68);
+  background-color: rgb(195, 204, 212);
 }
 
 
@@ -8,18 +8,17 @@ main{
   display: grid;
   grid-template-columns: 1.5fr 0.5fr;
   padding: 1rem;
-  gap: 1rem
-  
+  gap: 1rem;
+  font-size: 20px;
+  line-height:1.4;
 }
 .left-side{
-  line-height:1.4;
-  font-size:18.5px;
   padding: 0.5rem 1rem;
 }
 .right-side {
-  font-size: 20px;
+  font-size: 23px;
   padding: 1rem;
-  background-color: rgb(173, 143, 125);
+  background-color: rgb(77, 99, 128);
   display: flex;
   flex-direction: column;
   justify-content:space-around;
@@ -33,14 +32,16 @@ main{
   border-radius: 18px;
 }
 .right-side figcaption{
-  margin-top: 15px;
+  margin: 10px;
 }
 .right-side h2{
   font-size: 22px;
 }
 header{
   text-align: center;
-background-color:rgb(130, 117, 103);url(http://127.0.0.1:3000/img/Ghana%20flag.JPG)
+  background-color: rgb(59, 133, 79);
+  border-radius: 10px;
+  padding: 5px;
 }
 
 .flag{
@@ -50,32 +51,70 @@ border-radius: 25px;
 
 
 nav{
-  background-color: rgb(198, 124, 99);
   text-transform: uppercase;
-  border: 7px solid rgb(159, 99, 99);
-  border-radius: 25px;
+  border: 7px solid black;
+  padding: 0.2rem;
+  
 }
 nav ul{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  
 }
 nav a:hover{
-  background-color:rgb(121, 121, 176) ;
-  border-radius: 1rem;
+  background-color:rgb(15, 109, 15) ;
+  border-radius:4rem;
 
 }
 nav a{
   padding: 0.5rem 1rem;
   color: rgb(41, 28, 9);
   text-decoration: none;
+  color:beige;
 }
 nav li{
   list-style-type: none;
-  padding: 0.5rem;
+  padding: 4.5rem;
+  font-weight: bold;
+  font-size: 20px;
+  
 }
 
 footer{
-  background-color: rgb(158, 145, 127);
+ background-image: url(img/footerbg.jpeg);
   padding: 1rem 2rem;
+  color: aliceblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem;
+  font-size: 150%;
+}
+
+.rites{
+  background-image: url(img/ritebg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2{
+  font-size: 120%;
+}
+h1{
+  font-size: 130%;
+}
+.homebg{
+background-image: url(img/homebg.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.lbg{
+  background-image: url(img/indexbg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dancebg{
+  background-image: url(img/BG.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
