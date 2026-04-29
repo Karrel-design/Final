@@ -69,9 +69,9 @@ nav a:hover{
 }
 nav a{
   padding: 0.5rem 1rem;
-  color: rgb(41, 28, 9);
   text-decoration: none;
-  color:beige;
+  color:floralwhite;
+  font-size: 120%;
 }
 nav li{
   list-style-type: none;
@@ -82,9 +82,9 @@ nav li{
 }
 
 footer{
- background-image: url(img/footerbg.jpeg);
+ background-image: url(img/foot.jpg);
   padding: 1rem 2rem;
-  color: aliceblue;
+  color:white;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 4rem;
@@ -92,9 +92,16 @@ footer{
 }
 
 .rites{
-  background-image: url(img/ritebg.jpeg);
-  background-repeat: no-repeat;
+  background-image:url(img/bag3.jpg);
+  min-height: 30vh;
   background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+padding: 3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+line-height: 1.4;
 }
 h2{
   font-size: 120%;
@@ -103,18 +110,52 @@ h1{
   font-size: 130%;
 }
 .homebg{
-background-image: url(img/homebg.jpeg);
+  background-image:url(img/bag5.jpg);
+  min-height: 30vh;
+  background-size: cover;
+background-position: center;
 background-repeat: no-repeat;
-background-size: cover;
+padding: 3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+line-height: 1.4;
+
 
 }
+
+
+
 .lbg{
-  background-image: url(img/indexbg.jpeg);
-  background-repeat: no-repeat;
+  background-image:url(img/bag4.jpg);
+  min-height: 30vh;
   background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+padding: 3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+line-height: 1.4;
 }
 .dancebg{
-  background-image: url(img/BG.jpeg);
-  background-repeat: no-repeat;
+  background-image:url(img/bag6.avif);
+  min-height: 30vh;
   background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+padding: 3rem;
+display: flex;
+justify-content: center;
+align-items: center;
+line-height: 1.4;
 }
+
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+
